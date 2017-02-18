@@ -33,7 +33,6 @@ def send_decoded(message):
 def fetch_and_decode_metar(code):
 	global decoded_data
 	global city
-	global got_error
 	city = 'None' # for error report message when got problems with response
 	link = 'http://metartaf.ru/' + code + '.json'
 	response = requests.get(link)
