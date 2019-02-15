@@ -1,2 +1,2 @@
 # -*- coding: utf-8 -*-
-token = 'insert your token here'
+token = 'insert_your_token_here'
